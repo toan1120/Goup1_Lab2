@@ -15,6 +15,8 @@ namespace HinhChuNhat1
         
         public static double tinhChuVi()
         {
+            //test push
+            //hello! mình đẩy lên nhé!
             return (a + b) / 2; // chu vi hinh cn
         }
     }
