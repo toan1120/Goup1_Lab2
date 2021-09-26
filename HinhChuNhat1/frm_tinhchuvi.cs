@@ -26,9 +26,22 @@ namespace HinhChuNhat1
             txt_ketqua.Text = CongThuc.tinhChuVi().ToString();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
+            int a = int.Parse(txt_chieudai.Text);
+            int b = int.Parse(txt_chieurong.Text);
+            CongThuc.A = double.Parse(txt_chieudai.Text);
+            CongThuc.B = double.Parse(txt_chieurong.Text);
+            txtKQ1.Text = CongThuc.tinhDienTich().ToString();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txt_chieudai.Text);
+            int b = int.Parse(txt_chieurong.Text);
+            CongThuc.A = double.Parse(txt_chieudai.Text);
+            CongThuc.B = double.Parse(txt_chieurong.Text);
+            txtKQ2.Text = CongThuc.tongChuViDienTich().ToString();
         }
     }
 }

@@ -19,5 +19,16 @@ namespace HinhChuNhat1
             //hello! mình đẩy lên nhé!
             return (a + b) / 2; // chu vi hinh cn
         }
+        public static double tinhDienTich()
+        {
+
+            return a * b; // diện tích hinh cn
+        }
+        public static double tongChuViDienTich()
+        {
+            return tinhChuVi() + tinhDienTich(); //Tính tổng chu vi và diện tích 
+        }
+
     }
+
 }
